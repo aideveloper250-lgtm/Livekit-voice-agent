@@ -6,7 +6,7 @@ A basic example of a voice agent using LiveKit and Python. Has a few extras to g
 
 Run the following commands to:
 - clone the repository
-- change directory to `livekit-voice-agent-python`
+- change directory to `livekit-outbound-caller-agent`
 - create a virtual environment and activate it
 - install dependencies
 - download files
