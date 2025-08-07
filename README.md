@@ -1,6 +1,14 @@
 # LiveKit Outbound Caller Voice Agent
 
-A basic example of a voice agent using LiveKit and Python. Has a few extras to get started:
+A production-ready voice agent using LiveKit and Python for making outbound SIP calls with advanced features:
+
+## 🚀 Features
+
+- **Dynamic Metadata Parsing**: Supports both JSON and simple phone number formats
+- **Enhanced Error Handling**: Robust session management and error recovery
+- **TTS Optimization**: Direct audio approach with 24kHz support
+- **Production Ready**: Comprehensive logging and monitoring
+- **SIP Integration**: Full outbound calling via LiveKit SIP trunks
 
 ## Dev Setup
 
@@ -13,8 +21,8 @@ Run the following commands to:
 
 ### Linux/macOS
 ```console
-git clone https://github.com/kylecampbell/livekit-outbound-caller-agent.git
-cd livekit-outbound-caller-agent
+git clone https://github.com/aideveloper250-lgtm/Livekit-voice-agent.git
+cd Livekit-voice-agent
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -26,7 +34,7 @@ python3 agent.py download-files
   
 ```cmd
 :: Windows (CMD/PowerShell)
-cd livekit-outbound-caller-agent
+cd Livekit-voice-agent
 python3 -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
@@ -103,4 +111,3 @@ lk sip outbound list
 ```console
 lk sip dispatch list
 ```
-
