@@ -145,9 +145,10 @@ async def entrypoint(ctx: agents.JobContext):
         # llm=openai.LLM(model="gpt-4o-mini"),
         # tts=cartesia.TTS(model="sonic-2", voice="f786b574-daa5-4673-aa0c-cbe3e8534c02"),
         # stt=openai.STT(),
-        llm=openai.LLM(model="gpt-4o-mini"),
+        # llm=openai.LLM(model="gpt-4o-mini"),
+        llm=openai.LLM(model="gpt-4.1"),
         tts=deepgram.TTS(
-      model="aura-asteria-en",
+      model="aura-2-andromeda-en",
    ),
         # tts=openai.TTS(model="tts-1",voice="nova"),
         vad=silero.VAD.load(),
