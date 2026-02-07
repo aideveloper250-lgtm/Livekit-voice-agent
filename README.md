@@ -1,6 +1,6 @@
 # LiveKit Outbound Caller Voice Agent
 
-A production-ready voice agent using LiveKit and Python for making outbound SIP calls with advanced features:
+A production-ready voice agent using LiveKit and Python for making outbound SIP calls with advanced features for real estate business:
 
 ## 🚀 Features
 
